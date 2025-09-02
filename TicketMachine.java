@@ -40,7 +40,7 @@ public class TicketMachine
 
     /**
      * Return the amount of money already inserted for the
-     * next ticket.
+     * nex t ticket.
      */
     public int getBalance()
     {
