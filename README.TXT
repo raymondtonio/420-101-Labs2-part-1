@@ -12,3 +12,12 @@ It is discussed in chapter 2.
 
 Purpose of project: To illustrate the basics of fields, constructors, and methods.
 How to start this project: Create one or more TicketMachine objects.
+
+
+Laboratory #2
+
+2. 100 cents
+3.
+a - the machine stores a ticket each time you print one.
+b - as i inserted 100000, it made no difference and gave no refund
+c - even when inserting not enough and print, it still shows the same and print remains the same
