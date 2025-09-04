@@ -71,16 +71,27 @@ c- though not clearly but enough to understand the issue.
 25.the return statement in the body of the method does not need to be be changed for the code to compile.
    it tells me that just becasue the header gets changed, doesn't mean the return changes too. the return stays the same.
 
-27.
+27.I get the error message of: missing return statment.
 
 28.the method header of getPrice is a getter method yet the one for printTicket is a printer method.
 
 29.because they both use the keyword "void" which is to indicate that these mehtods have no return value.
+30.
 
+31./**
+* Increase score by the given number of points.
+*/
+public void increaseScore(int points)
+{
+    score = score + points;
+// TODO: Increase score by the value in points.
+}
 
+32.yes, the addCredits method is a mutator method because it changes the state of the object by increasing the credits field.
+credits before adding: 0
+credits before adding 55 credits: 55
 
-
-
+33.
 
 
 
