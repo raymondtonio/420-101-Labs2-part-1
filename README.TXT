@@ -91,9 +91,61 @@ public void increaseScore(int points)
 credits before adding: 0
 credits before adding 55 credits: 55
 
-33.
+33. 
+/**
+* Reduce price by the given amount.
+*/
+public void discount(int amount)
 
+price = price - amount;
+{
+// TODO: Subtract amount from price.
+}
 
+34. public void setAge(int currentAge)
+    {
+       age = currentAge;
+    }
+    
+35. public void setAlive (boolean status) {
+    alive = status;
+}
 
+36. it's showing in the inspector that the value of the price field is 0 instead of the value i gave it.
 
+37. My cat has green eyes.
 
+38.
+    public void prompt(){
+        System.out.println("Please insert the correct amount of money");
+    }
+    
+39. instead of showing "0 cents". it is showing "price cents."
+
+40. it shows the same mistake it did when altered the first time. 
+
+41.
+    public void showPrice(){
+        System.out.println("The price of a ticket is" + price + " cents.");
+    }
+    
+42. i beleive that it is because there wasn't a previous code written to specify on the value of the Ticket Machine
+
+43. No it does not show the statment it had been replaced with as output. 
+
+44. it no longer gives you an option to put value for the TicketMachines you create. 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
