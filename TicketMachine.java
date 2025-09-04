@@ -29,7 +29,6 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
-
     /**
      * Return the price of a ticket.
      */
@@ -37,7 +36,13 @@ public class TicketMachine
     {
         return price;
     }
-
+    /**
+     * Return the total.
+     */
+    public int getTotal()
+    {
+        return total;
+    }
     /**
      * Return the amount of money already inserted for the
      * nex t ticket.

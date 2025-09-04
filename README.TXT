@@ -57,17 +57,25 @@ c- though not clearly but enough to understand the issue.
 19. the following constructor has 2.
     and their types are string for title and double for the price.
 20. -
+
 21.public Pet(String petsName)
 { name = petsName;
 }
-22.
+22. -
 
+23.the difference amongst the two headers are the name: getBalance and getPrice.
+   the difference amongst the two bodies are also the names. 
+   
+24. "What is the balance?"
 
+25.the return statement in the body of the method does not need to be be changed for the code to compile.
+   it tells me that just becasue the header gets changed, doesn't mean the return changes too. the return stays the same.
 
+27.
 
+28.the method header of getPrice is a getter method yet the one for printTicket is a printer method.
 
-
-
+29.because they both use the keyword "void" which is to indicate that these mehtods have no return value.
 
 
 
