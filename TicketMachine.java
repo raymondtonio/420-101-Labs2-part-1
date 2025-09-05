@@ -23,12 +23,29 @@ public class TicketMachine
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public TicketMachine()
+    public TicketMachine(int cost)
     {
-        price = 1000;
+        price = cost;
         balance = 0;
         total = 0;
     }
+    /**
+     * Create a machine that issues tickets of the given price.
+     * Note that the price must be greater than zero, and there
+     * are no checks to ensure this.
+     */
+    public TicketMachine() {
+        price = 500;
+        balance = 0;
+        total = 0;
+    }
+    /**
+     * 
+     */
+    public void empty() {
+        total = 0;
+    }
+    
     /**
      * Return the price of a ticket.
      */

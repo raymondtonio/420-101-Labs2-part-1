@@ -134,6 +134,8 @@ price = price - amount;
 43. No it does not show the statment it had been replaced with as output. 
 
 44. it no longer gives you an option to put value for the TicketMachines you create. 
+
+46.No it does not need any parameters. 
     
     
     
